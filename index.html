@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Africa Calling — personalized video surprises filmed in Tanzania and delivered worldwide.">
+<title>Africa Calling | Personalized Video Surprises From Africa</title>
+<style>
+:root{--ink:#111;--gold:#d4a62a;--cream:#f7f1e5;--green:#176b4a;--muted:#666;--line:#e8e1d4}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.55}
+a{text-decoration:none;color:inherit}.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:#fffffff5;border-bottom:1px solid var(--line)}.nav{height:72px;display:flex;align-items:center;justify-content:space-between}.logo{height:52px}
+.navlinks{display:flex;gap:22px;align-items:center;font-size:14px;font-weight:800}.navlinks a:hover{color:var(--gold)}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:10px;font-weight:900;border:0;cursor:pointer}.goldbtn{background:var(--gold);color:#111}.lightbtn{background:#fff;color:#111;border:1px solid #ddd}
+.hero{background:linear-gradient(120deg,#101010,#191919 60%,#223329);color:#fff;padding:72px 0}.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.eyebrow{color:var(--gold);font-size:13px;letter-spacing:2px;font-weight:900;text-transform:uppercase}h1{font-size:clamp(50px,7vw,84px);line-height:.9;letter-spacing:-4px;margin:14px 0 22px}.gold{color:var(--gold)}
+.hero p{font-size:19px;color:#eee;max-width:590px}.actions{display:flex;gap:12px;flex-wrap:wrap}
+.preview,.video{background:#0b0b0b;border:1px solid #ffffff22;padding:12px;border-radius:22px}.placeholder{aspect-ratio:16/10;border-radius:14px;background:linear-gradient(135deg,#176b4a,#d4a62a,#111);display:grid;place-items:center;position:relative}.play{width:68px;height:68px;border-radius:50%;background:#fff;display:grid;place-items:center;font-size:27px;padding-left:4px}.tag{position:absolute;bottom:14px;left:14px;background:#111c;color:#fff;padding:6px 9px;border-radius:7px;font-size:11px;font-weight:800}
+.trust{background:var(--green);color:#fff}.trustgrid{display:grid;grid-template-columns:repeat(4,1fr);padding:15px 0;text-align:center;font-weight:900;font-size:14px}
+section{padding:72px 0}.head{text-align:center;max-width:720px;margin:0 auto 40px}.head h2{font-size:40px;line-height:1.05;margin:0 0 10px}.head p{color:var(--muted)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.step,.benefit,.quote{padding:23px;border:1px solid var(--line);border-radius:17px}.num{width:42px;height:42px;border-radius:50%;background:var(--gold);display:grid;place-items:center;font-weight:900}.step h3{margin:14px 0 5px}.step p,.benefit p{margin:0;color:var(--muted);font-size:14px}
+.experiences{background:#faf8f3}.category{margin-bottom:38px}.category h3{font-size:27px;margin:0 0 16px}.products{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.product{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden}.product .placeholder{border-radius:0}.product .play{width:48px;height:48px;font-size:19px}.body{padding:16px}.body h4{font-size:18px;margin:0 0 5px}.body p{font-size:13px;color:var(--muted);min-height:58px}.foot{display:flex;align-items:center;justify-content:space-between}.price{font-size:20px;font-weight:900}.choose{padding:8px 11px;font-size:12px}
+.dark{background:#111;color:#fff}.dark .head p{color:#ccc}.videos{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.why{background:var(--cream)}.benefits,.quotes{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.quote{background:#fff}.quote p{color:var(--muted);font-style:italic}
+.order{background:var(--cream)}.orderbox{max-width:850px;margin:auto;background:#fff;padding:30px;border-radius:22px}.form{display:grid;grid-template-columns:1fr 1fr;gap:15px}label{font-size:13px;font-weight:800}input,select,textarea{width:100%;padding:12px;margin-top:6px;border:1px solid #d8d0c2;border-radius:9px;font:inherit}.full{grid-column:1/-1}textarea{min-height:115px}.note{font-size:13px;color:var(--muted)}
+.faq{max-width:850px;margin:auto}details{padding:17px 0;border-bottom:1px solid var(--line)}summary{font-weight:900;cursor:pointer}.cta{background:linear-gradient(120deg,#176b4a,#111);color:#fff;text-align:center}.cta h2{font-size:42px}.cta p{color:#ddd}
+footer{background:#111;color:#fff;padding:36px 0}.footer{display:flex;align-items:center;justify-content:space-between}.footer img{height:48px;background:#fff;padding:3px;border-radius:7px}.small{color:#aaa;font-size:13px}
+.wa{position:fixed;right:18px;bottom:18px;background:#25d366;color:#fff;padding:13px 17px;border-radius:999px;font-weight:900}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr}.products{grid-template-columns:repeat(2,1fr)}.steps,.benefits,.quotes{grid-template-columns:repeat(2,1fr)}.videos{grid-template-columns:1fr 1fr}.navlinks{display:none}}
+@media(max-width:600px){section{padding:55px 0}.trustgrid,.products,.steps,.benefits,.quotes,.videos,.form{grid-template-columns:1fr}.full{grid-column:auto}h1{font-size:56px}.head h2{font-size:34px}.footer{flex-direction:column;align-items:flex-start;gap:18px}}
+</style>
+</head>
+<body>
+<header><div class="container nav"><a href="#top"><img class="logo" src="africa-calling-logo.png" alt="Africa Calling"></a><nav class="navlinks"><a href="#experiences">Experiences</a><a href="#how">How it works</a><a href="#why">Why us</a><a href="#faq">FAQ</a><a class="btn goldbtn" href="#order">Order now</a></nav></div></header>
+
+<main id="top">
+<section class="hero"><div class="container hero-grid"><div><div class="eyebrow">Made in Tanzania • Delivered worldwide</div><h1>AFRICA<br><span class="gold">IS CALLING.</span></h1><p>Send someone special a personalized video surprise, filmed by real people in Tanzania. Funny, emotional and unforgettable — made just for them.</p><div class="actions"><a class="btn goldbtn" href="#order">CREATE YOUR SURPRISE →</a><a class="btn lightbtn" href="#how">SEE HOW IT WORKS</a></div></div><div class="preview"><div class="placeholder"><div class="play">▶</div><div class="tag">YOUR SAMPLE VIDEO GOES HERE</div></div></div></div></section>
+
+<div class="trust"><div class="container trustgrid"><div>🌍 Made in Tanzania</div><div>🎥 Real people. Real videos.</div><div>❤️ Personalized</div><div>📩 Private digital delivery</div></div></div>
+
+<section id="how"><div class="container"><div class="head"><h2>Simple for you. Magical for them.</h2><p>Four easy steps from your idea to a surprise from Africa.</p></div><div class="steps">
+<div class="step"><div class="num">01</div><h3>Choose</h3><p>Pick the surprise that fits your occasion.</p></div><div class="step"><div class="num">02</div><h3>Personalize</h3><p>Tell us the recipient's name, occasion and message.</p></div><div class="step"><div class="num">03</div><h3>We film</h3><p>Our team creates your personalized video in Tanzania.</p></div><div class="step"><div class="num">04</div><h3>They receive</h3><p>We send you a private high-quality digital delivery link.</p></div>
+</div></div></section>
+
+<section class="experiences" id="experiences"><div class="container"><div class="head"><h2>Choose your surprise</h2><p>Pick a category, choose an experience, and make someone's day from Africa.</p></div>
+<div class="category"><h3>❤️ LOVE</h3><div class="products">
+<div class="product"><div class="placeholder"><div class="play">▶</div></div><div class="body"><h4>From Africa With Love</h4><p>A warm romantic message made especially for someone you love.</p><div class="foot"><span class="price">€29</span><a class="btn goldbtn choose" href="#order">Choose</a></div></div></div>
+<div class="product"><div class="placeholder"><div class="play">▶</div></div><div class="body"><h4>Zanzibar Romance</h4><p>A tropical romantic surprise from East Africa.</p><div class="foot"><span class="price">€39</span><a class="btn goldbtn choose" href="#order">Choose</a></div></div></div>
+<div class="product"><div class="placeholder"><div class="play">▶</div></div><div class="body"><h4>Proposal Surprise</h4><p>Add an unexpected African voice to a once-in-a-lifetime moment.</p><div class="foot"><span class="price">€59</span><a class="btn goldbtn choose" href="#order">Choose</a></div></div></div>
+<div class="product"><div class="placeholder"><div class="play">▶</div></div><div class="body"><h4>Long-Distance Hello</h4><p>Send warmth across the distance when you can't be there.</p><div class="foot"><span class="price">€29</span><a class="btn goldbtn choose" href="#order">Choose</a></div></div></div>
+</div></div>
+
+<div class="category"><h3>😂 FUN</h3><div class="products">
+<div class="product"><div class="placeholder"><div class="play">▶</div></div><div class="body"><h4>African Court</h4><p>Put your loved one on trial for being too amazing — or too guilty.</p><div class="foot"><span class="price">€19</span><a class="btn goldbtn choose" href="#order">Choose</a></div></div></div>
+<div class="product"><div class="placeholder"><div class="play">▶</div></div><div class="body"><h4>African Roast</h4><p>A playful customized roast for a friend who can take the heat.</p><div class="foot"><span class="price">€29</span><a class="btn goldbtn choose" href="#order">Choose</a></div></div></div>
+<div class="product"><div class="placeholder"><div class="play">▶</div></div><div class="body"><h4>Dance Attack</h4><p>High-energy African dancing to surprise someone special.</p><div class="foot"><span class="price">€29</span><a class="btn goldbtn choose" href="#order">Choose</a></div></div></div>
+<div class="product"><div class="placeholder"><div class="play">▶</div></div><div class="body"><h4>African Grandma</h4><p>A funny, warm grandmother-style message for celebrations.</p><div class="foot"><span class="price">€29</span><a class="btn goldbtn choose" href="#order">Choose</a></div></div></div>
+</div></div>
+
+<div class="category"><h3>🎉 CELEBRATE</h3><div class="products">
+<div class="product"><div class="placeholder"><div class="play">▶</div></div><div class="body"><h4>African News Birthday</h4><p>A hilarious birthday news report made around your recipient.</p><div class="foot"><span class="price">€19</span><a class="btn goldbtn choose" href="#order">Choose</a></div></div></div>
+<div class="product"><div class="placeholder"><div class="play">▶</div></div><div class="body"><h4>Graduation Surprise</h4><p>Celebrate their achievement with an unforgettable African message.</p><div class="foot"><span class="price">€29</span><a class="btn goldbtn choose" href="#order">Choose</a></div></div></div>
+<div class="product"><div class="placeholder"><div class="play">▶</div></div><div class="body"><h4>Congratulations</h4><p>For new jobs, wins, milestones and big moments.</p><div class="foot"><span class="price">€29</span><a class="btn goldbtn choose" href="#order">Choose</a></div></div></div>
+<div class="product"><div class="placeholder"><div class="play">▶</div></div><div class="body"><h4>Holiday Surprise</h4><p>A festive greeting with an unmistakable African touch.</p><div class="foot"><span class="price">€29</span><a class="btn goldbtn choose" href="#order">Choose</a></div></div></div>
+</div></div>
+
+<div class="category"><h3>🌍 AFRICA</h3><div class="products">
+<div class="product"><div class="placeholder"><div class="play">▶</div></div><div class="body"><h4>Safari Surprise</h4><p>Bring the feeling of an African adventure into a special day.</p><div class="foot"><span class="price">€39</span><a class="btn goldbtn choose" href="#order">Choose</a></div></div></div>
+<div class="product"><div class="placeholder"><div class="play">▶</div></div><div class="body"><h4>Thank You From Africa</h4><p>Turn a simple thank-you into a memorable international surprise.</p><div class="foot"><span class="price">€19</span><a class="btn goldbtn choose" href="#order">Choose</a></div></div></div>
+<div class="product"><div class="placeholder"><div class="play">▶</div></div><div class="body"><h4>Custom Surprise</h4><p>Your idea, your message, our creativity. Fully personalized.</p><div class="foot"><span class="price">From €59</span><a class="btn goldbtn choose" href="#order">Choose</a></div></div></div>
+</div></div></div></section>
+
+<section class="dark"><div class="container"><div class="head"><h2>WATCH THE MAGIC</h2><p>Real sample videos will appear here. Replace these placeholders with your strongest clips.</p></div><div class="videos"><div class="placeholder"><div class="play">▶</div><div class="tag">SAMPLE VIDEO 01</div></div><div class="placeholder"><div class="play">▶</div><div class="tag">SAMPLE VIDEO 02</div></div><div class="placeholder"><div class="play">▶</div><div class="tag">SAMPLE VIDEO 03</div></div></div></div></section>
+
+<section class="why" id="why"><div class="container"><div class="head"><h2>Why Africa Calling?</h2><p>Modern digital delivery. Authentic African energy.</p></div><div class="benefits">
+<div class="benefit"><h3>🇹🇿 Authentic Africa</h3><p>Created by real people in Tanzania.</p></div><div class="benefit"><h3>🎥 Personalized</h3><p>Every video is made specifically for the recipient.</p></div><div class="benefit"><h3>❤️ Emotional</h3><p>We create moments people remember.</p></div><div class="benefit"><h3>🌍 Worldwide</h3><p>A digital surprise that can reach someone anywhere.</p></div>
+</div></div></section>
+
+<section><div class="container"><div class="head"><h2>THEY RECEIVED THE CALL</h2><p>Real customer reactions will be added here as orders arrive.</p></div><div class="quotes"><div class="quote"><p>Customer reaction coming soon.</p><strong>FIRST CUSTOMER</strong></div><div class="quote"><p>Customer reaction coming soon.</p><strong>FIRST CUSTOMER</strong></div><div class="quote"><p>Customer reaction coming soon.</p><strong>FIRST CUSTOMER</strong></div></div></div></section>
+
+<section class="order" id="order"><div class="container"><div class="head"><h2>Make the call from Africa</h2><p>Tell us what you want. Secure EUR checkout will be connected through our payment provider.</p></div><div class="orderbox"><form onsubmit="demo(event)"><div class="form">
+<div><label>Your name</label><input required placeholder="Your full name"></div><div><label>Your email</label><input required type="email" placeholder="you@example.com"></div>
+<div><label>Recipient name</label><input required placeholder="Who is the surprise for?"></div><div><label>Occasion</label><select required><option value="">Select...</option><option>Birthday</option><option>Love</option><option>Congratulations</option><option>Graduation</option><option>Wedding / Proposal</option><option>Just because</option><option>Other</option></select></div>
+<div><label>Choose your surprise</label><select required><option value="">Select...</option><option>African News Birthday — €19</option><option>African Court — €19</option><option>From Africa With Love — €29</option><option>Dance Attack — €29</option><option>African Grandma — €29</option><option>Zanzibar Romance — €39</option><option>Proposal Surprise — €59</option><option>Custom Surprise — from €59</option></select></div><div><label>Preferred delivery date</label><input type="date"></div>
+<div class="full"><label>Message and instructions</label><textarea required placeholder="Tell us what you want us to say or do..."></textarea></div></div>
+<p class="note">🔒 Secure EUR card checkout will be connected after payment-provider approval. Do not enter card details on this form.</p><button class="btn goldbtn" type="submit">CONTINUE WITH MY ORDER →</button></form></div></div></section>
+
+<section id="faq"><div class="container"><div class="head"><h2>Questions?</h2><p>Everything you need to know before ordering.</p></div><div class="faq">
+<details><summary>Where are the videos filmed?</summary><p>Our videos are created in Tanzania, East Africa, by real people.</p></details>
+<details><summary>How does it work?</summary><p>Choose a surprise, personalize it, we film it, and you receive a private digital delivery link.</p></details>
+<details><summary>Can I request a completely custom video?</summary><p>Yes. Choose Custom Surprise and tell us your idea. We will confirm what we can create and the price before production.</p></details>
+<details><summary>How will I receive my video?</summary><p>You will receive a private high-quality digital delivery link. Telegram and email delivery can also be offered.</p></details>
+<details><summary>Can I order from Europe?</summary><p>Yes. Prices are displayed in euros and the service is designed for international customers.</p></details>
+<details><summary>How long does production take?</summary><p>Turnaround will be shown or confirmed when your order is placed. We will only publish a guaranteed delivery time once our production capacity is confirmed.</p></details>
+</div></div></section>
+
+<section class="cta"><div class="container"><div class="head"><h2>READY TO MAKE SOMEONE'S DAY?</h2><p style="color:#ddd">Choose a surprise, personalize it, and let Africa do the rest.</p><a class="btn goldbtn" href="#order">CREATE YOUR SURPRISE →</a></div></div></section>
+</main>
+
+<footer><div class="container footer"><img src="africa-calling-logo.png" alt="Africa Calling"><div><strong>Someone special is calling from Africa.</strong><br><span class="small">Made in Africa. Made with love. Delivered digitally.<br>© 2026 Africa Calling. All rights reserved.</span></div></div></footer>
+<a class="wa" href="#" onclick="alert('Replace this with your real WhatsApp link before launch.');return false;">💬 Chat with Africa Calling</a>
+<script>function demo(e){e.preventDefault();alert("The order form is ready. Live DPO checkout will be connected after payment-provider approval.");}</script>
+</body></html>
